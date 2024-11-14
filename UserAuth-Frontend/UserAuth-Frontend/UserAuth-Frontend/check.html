@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://alcdn.msauth.net/browser/2.31.0/js/msal-browser.min.js"></script>
+</head>
+<body>
+    <form id="loginForm">
+        <button type="button" onclick="login()">Login with Microsoft</button>
+    </form>
+    <div id="message"></div>
+
+    <script>
+        const msalConfig = {
+            auth: {
+                clientId: "99f8446d-c451-4b6b-99c9-160e273e8837", // Your client ID
+                authority: "https://login.microsoftonline.com/023b8a20-e6ca-495f-a597-3f7e8f91f2b6", // Your authority
+                redirectUri: "http://localhost" // Replace with your actual redirect URI
+            }
+        };
+
+        const msalInstance = new msal.PublicClientApplication(msalConfig);
+
+        async function login() {
+            const loginRequest = {
+                scopes: ["User.Read"]
+            };
+
+            try {
+                // Try to acquire token silently
+                const silentResponse = await msalInstance.acquireTokenSilent(loginRequest);
+                handleLoginResponse(silentResponse);
+            } catch (silentError) {
+                console.warn("Silent token acquisition failed. Falling back to interactive login.");
+
+                // Show popup login
+                try {
+                    const popupResponse = await msalInstance.loginPopup(loginRequest);
+                    handleLoginResponse(popupResponse);
+                } catch (popupError) {
+                    if (popupError.errorCode === "user_cancelled") {
+                        console.warn("User cancelled the login process.");
+                        document.getElementById('message').textContent = 'Login was canceled. Please try again.';
+                    } else {
+                        console.error("Popup login failed:", popupError);
+                        document.getElementById('message').textContent = 'Login failed. Please try again.';
+                    }
+                }
+            }
+        }
+
+        async function handleLoginResponse(loginResponse) {
+            // Use the access token to call your backend API
+            const token = loginResponse.accessToken;
+            const email = loginResponse.account.username;
+
+            try {
+                const response = await fetch('https://localhost:7146/api/UserAuth/Login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify({ email: email })
+                });
+
+                const data = await response.text();
+                if (data.trim() === "Login successful") {
+                    // Redirect user to the specified SharePoint URL
+                    window.location.href = "https://y3mbk.sharepoint.com/sites/CRUD/SitePages/CRUD-Operation-with-React.aspx";
+                } else {
+                    document.getElementById('message').textContent = data;
+                }
+            } catch (error) {
+                console.error('Error calling backend API:', error);
+                document.getElementById('message').textContent = 'An error occurred. Please try again later.';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Complete</title>
+    <script>
+        window.onload = function () {
+            // Parse the query string to extract the code and other parameters
+            const params = new URLSearchParams(window.location.search);
+            const authCode = params.get('code');
+            const clientInfo = params.get('client_info');
+
+            if (authCode) {
+                // Optionally, store the code locally (if needed)
+                localStorage.setItem('authCode', authCode);
+
+                // Redirect to landing.html with the token or any needed information
+                window.location.href = "http://127.0.0.1:5500/landing.html";
+            } else {
+                document.body.innerHTML = '<h1>Authentication failed. No code found.</h1>';
+            }
+
+            // Optionally close the tab after redirection
+            setTimeout(() => window.close(), 5000);
+        };
+    </script>
+</head>
+<body>
+    <h1>Authentication complete. Redirecting to the application...</h1>
+</body>
+</html>

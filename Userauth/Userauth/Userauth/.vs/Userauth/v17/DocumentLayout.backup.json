@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|c:\\users\\sagnikm\\downloads\\userauth\\userauth\\userauth\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|solutionrelative:controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|c:\\users\\sagnikm\\downloads\\userauth\\userauth\\userauth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|c:\\users\\sagnikm\\downloads\\userauth\\userauth\\userauth\\models\\azureadlogininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|solutionrelative:models\\azureadlogininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|c:\\users\\sagnikm\\downloads\\userauth\\userauth\\userauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|c:\\users\\sagnikm\\downloads\\userauth\\userauth\\userauth\\models\\authcodeinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|solutionrelative:models\\authcodeinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|c:\\users\\sagnikm\\downloads\\userauth\\userauth\\userauth\\userauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|solutionrelative:userauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|c:\\users\\sagnikm\\downloads\\userauth\\userauth\\userauth\\models\\nonazureadlogininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5C6D93-F1F5-408D-8D80-772B4896FC72}|Userauth.csproj|solutionrelative:models\\nonazureadlogininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AzureAdLoginInput.cs",
+              "DocumentMoniker": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Models\\AzureAdLoginInput.cs",
+              "RelativeDocumentMoniker": "Models\\AzureAdLoginInput.cs",
+              "ToolTip": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Models\\AzureAdLoginInput.cs",
+              "RelativeToolTip": "Models\\AzureAdLoginInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:31:37.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthCodeInput.cs",
+              "DocumentMoniker": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Models\\AuthCodeInput.cs",
+              "RelativeDocumentMoniker": "Models\\AuthCodeInput.cs",
+              "ToolTip": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Models\\AuthCodeInput.cs",
+              "RelativeToolTip": "Models\\AuthCodeInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:54:56.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:05:15.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NonAzureAdLoginInput.cs",
+              "DocumentMoniker": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Models\\NonAzureAdLoginInput.cs",
+              "RelativeDocumentMoniker": "Models\\NonAzureAdLoginInput.cs",
+              "ToolTip": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Models\\NonAzureAdLoginInput.cs",
+              "RelativeToolTip": "Models\\NonAzureAdLoginInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:50:58.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Userauth.csproj",
+              "DocumentMoniker": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Userauth.csproj",
+              "RelativeDocumentMoniker": "Userauth.csproj",
+              "ToolTip": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Userauth.csproj",
+              "RelativeToolTip": "Userauth.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-19T18:43:19.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T18:34:03.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAuthController.cs",
+              "DocumentMoniker": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Controllers\\UserAuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserAuthController.cs",
+              "ToolTip": "C:\\Users\\SagnikM\\Downloads\\Userauth\\Userauth\\Userauth\\Controllers\\UserAuthController.cs",
+              "RelativeToolTip": "Controllers\\UserAuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:24:23.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

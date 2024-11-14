@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazda Site Demo</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>OneMazda Site</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Documents</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Announcements</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">Quick Links</a></li>
+                <li><a href="#">Team Members</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Tasks</a></li>
+            </ul>
+        </aside>
+        
+        <main>
+            <section>
+                <h2>Welcome to the Mazda Site</h2>
+                <p>This is a demo team site similar to SharePoint Online.</p>
+                <div class="document-library">
+                    <h3>Documents</h3>
+                    <ul>
+                        <li>Document1.pdf</li>
+                        <li>ProjectProposal.docx</li>
+                        <li>TeamMeetingMinutes.xlsx</li>
+                    </ul>
+                </div>
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <p>Click the link below:</p>
+                    <a id="operationLink" href="#" target="_blank"></a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Team Site Demo</p>
+    </footer> 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const loggedInUser = localStorage.getItem('loggedInUser');
+            const operationLink = document.getElementById('operationLink');
+
+            if (loggedInUser && loggedInUser.includes('@y3mbk.onmicrosoft.com')) {
+                operationLink.href = "https://y3mbk.sharepoint.com/sites/CRUD/SitePages/CRUD-Operation-with-React.aspx";
+                operationLink.textContent = "Go to CRUD Operation Page";
+            } else {
+                operationLink.href = "#";
+                operationLink.textContent = "Hello Dealer";
+            }
+        });
+    </script>
+</body>
+</html>
